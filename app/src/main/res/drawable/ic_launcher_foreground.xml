@@ -8,7 +8,7 @@
     <text
         android:fillColor="#FFFFFF"
         android:fontFamily="sans-serif-black"
-        android:textSize="24"/>
+        android:textSize="24sp"/>
     <!-- Signal/chart line icon -->
     <path
         android:strokeColor="#4776e6"
