@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- FTT text -->
+    <text
+        android:fillColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24"/>
+    <!-- Signal/chart line icon -->
+    <path
+        android:strokeColor="#4776e6"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M18,64 L32,64 L42,28 L64,88 L75,54 L89,54"/>
+    <!-- Glowing dot at end -->
+    <path
+        android:fillColor="#22d472"
+        android:pathData="M89,54 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <!-- "FTT" label -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,82 L30,82 L30,90 L26,90 Z
+                          M31,82 L35,82 L35,86 L33,86 L33,82
+                          M33,86 L35,86 L35,90 L33,90 Z
+                          M36,82 L40,82 L40,83.5 L38.5,83.5 L38.5,90 L37,90 L37,83.5 L36,83.5 Z"
+        android:fillAlpha="0"/>
+</vector>
