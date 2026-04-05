@@ -14,7 +14,10 @@ android {
         versionCode = 1
         versionName = "6.5.0"
     }
-
+buildFeatures {
+        buildConfig = true
+}
+}
     signingConfigs {
         create("release") {
             val ksPath = System.getenv("KEYSTORE_PATH")
